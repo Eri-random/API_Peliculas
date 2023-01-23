@@ -23,5 +23,10 @@ Desarrollo de API para explorar el mundo cinematográfico
 ### Conexión
 - MySQL
 
+### Testing
+- Unit testing
+- JUnit 5 y Mockito
+- H2 Database
+
 ### Documentación
 - [Documentación Postman](https://documenter.getpostman.com/view/20266619/2s8Z6vZa89)
