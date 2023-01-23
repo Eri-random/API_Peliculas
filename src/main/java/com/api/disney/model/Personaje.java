@@ -1,9 +1,7 @@
 package com.api.disney.model;
 
 import com.fasterxml.jackson.annotation.*;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
@@ -16,6 +14,9 @@ import java.util.Set;
 @Entity
 @Table(name = "Personaje")
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class Personaje {
 
     @Id

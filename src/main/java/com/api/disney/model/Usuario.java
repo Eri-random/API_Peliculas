@@ -1,6 +1,9 @@
 package com.api.disney.model;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -11,6 +14,9 @@ import java.util.Set;
 @Table(name = "Usuario", uniqueConstraints = {@UniqueConstraint(columnNames = {"username"}),
         @UniqueConstraint(columnNames = {"email"})})
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 public class Usuario {
 
     @Id
